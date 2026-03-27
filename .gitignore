@@ -1,0 +1,26 @@
+# JetBrains IDE files
+.idea/
+*.iml
+
+# Go build artifacts
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Coverage and profiling outputs
+*.out
+*.prof
+cpu.out
+mem.out
+cpu-*.out
+mem-*.out
+coverage.out
+coverage.txt
+
+# Quadtree benchmark export artifacts
+docs/perf/out/
+
